@@ -1,0 +1,72 @@
+/** @format */
+* {
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  font-family: "Dirtyline 36Daysoftype 2022";
+}
+section {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+  position: relative;
+  background-color: #1a200e;
+  color: oldlace;
+}
+section > h1 {
+  font-size: 200px;
+  padding: 50px;
+}
+
+.slider-container {
+  position: absolute;
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+  min-width: 100%;
+  width: fit-content;
+  align-items: flex-start;
+}
+
+.slider-container > div {
+  width: 600px;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f6d13a;
+  border: 1px solid black;
+}
+.slider-container > div:nth-child(1) {
+  background: url(/img1.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.slider-container > div:nth-child(2) {
+  background: url(/img2.jpg) no-repeat center center;
+  background-size: cover;
+}
+.slider-container > div:nth-child(3) {
+  background: url(/img3.jpg) no-repeat center center;
+  background-size: cover;
+}
+.slider-container > div:nth-child(4) {
+  background: url(/img4.jpg) no-repeat center center;
+  background-size: cover;
+}
+.slider-container > div:nth-child(5) {
+  background: url(/img5.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.slider-container > div > h1 {
+  font-size: 100px;
+  text-align: center;
+}
